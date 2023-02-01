@@ -1,0 +1,17 @@
+.label {
+  display: flex;
+  flex-direction: column;
+}
+.form__input__number {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  width: 110px;
+}
+.error__message {
+  color: red;
+}
+.send__number {
+  width: 118px;
+  margin-bottom: 15px;
+  background-color: #00c9ffbf;
+}
