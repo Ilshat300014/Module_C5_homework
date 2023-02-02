@@ -1,0 +1,15 @@
+.page__number {
+  margin-bottom: 10px;
+}
+.limit {
+  margin-bottom: 10px;
+}
+.error__message__page__number {
+  color: red;
+}
+.error__message__limit {
+  color: red;
+}
+.common__error {
+  color: red;
+}
