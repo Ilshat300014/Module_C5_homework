@@ -10,18 +10,25 @@
     <div class='picture__width'>
       <label>
         <span>Введите ширину (число должно быть в диапазоне от 100 до 300)</span>
-        <input class='input__width'>
+        <div class='input__width'>
+          <input class='form__input__width' type="number">
+          <span class='error__message__width'></span>
+        </div>
       </label>
     </div>
     <div class='picture__high'>
       <label>
         <span>Введите высоту (число должно быть в диапазоне от 100 до 300)</span>
-        <input class='input__high'>
+        <div class='input__high'>
+          <input class='form__high__high' type="number">
+          <span class='error__message__high'></span>
+        </div>
       </label>
     </div>
     <button type='button'>Получить данные</button>
-    <script src="javaScript.js"></script>
   </form>
+  <div class='result'>Здесь будет результат</div>
+  <script src="javaScript.js"></script>
 </body>
 </html>
 

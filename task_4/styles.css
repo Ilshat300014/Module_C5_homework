@@ -4,3 +4,9 @@
 .picture__high {
   margin-bottom: 10px;
 }
+.error__message__width {
+  color: red;
+}
+.error__message__high {
+  color: red;
+}
